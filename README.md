@@ -14,17 +14,19 @@
 
 ### What's new in 3.X?
 
-- AutoUpdater
 - Custom Installations
 - UI Hub
-- New Texures
+- New Textures
 
 ### What's new in 4.X.Preview?
 
+- AutoUpdater
 - Settings Menu
 - UI for Installs
 - RidgeMC Loader
 - Better Launcher
+- JDK 17
+- ZtroLoader
 
 ## RidgeMC
 ### Info
