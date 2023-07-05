@@ -17,12 +17,14 @@
 - AutoUpdater
 - Custom Installations
 - UI Hub
+- New Texures
 
 ### What's new in 4.X.Preview?
 
 - Settings Menu
 - UI for Installs
 - RidgeMC Loader
+- Better Launcher
 
 ## RidgeMC
 ### Info
