@@ -27,6 +27,7 @@
 - Better Launcher
 - JDK 17
 - ZtroLoader
+- Bedrock Launcher
 
 ## RidgeMC
 ### Info
