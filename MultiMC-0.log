@@ -1,0 +1,121 @@
+    0.018 D <> Log initialized.
+    0.018 D "MultiMC 5" , (c) 2013-2023  "MultiMC Contributors"
+    0.018 D Version                    :  "0.7.0-3775"
+    0.018 D Git commit                 :  "33a8b916a1baa46026681101ab870cb0a0684fa5"
+    0.018 D Git refspec                :  "refs/heads/develop"
+    0.018 D Work dir before adjustment :  "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer"
+    0.018 D Work dir after adjustment  :  "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer"
+    0.018 D Adjusted by                :  "Fallback to binary path E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer"
+    0.018 D Binary path                :  "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer"
+    0.018 D Application root path      :  "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer"
+    0.018 D <> Paths set.
+    0.026 D Detected default console font: "Courier" , substitutions: ""
+    0.027 D <> Settings loaded.
+    0.032 D Detecting proxy settings...
+    0.043 D Using no proxy is an option!
+    0.043 D <> Network done.
+    0.048 D Your language is "en_US"
+    0.049 D <> Translations loaded.
+    0.049 D Initializing updater with platform:  "win32"  --  "https://files.multimc.org/update/win32/channels.json"
+    0.049 D <> Updater started.
+    0.052 D Started watching  "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer/icons"
+    0.053 D <> Instance icons intialized.
+    0.059 D <> Icon themes initialized.
+    0.059 D Determining System Theme...
+    0.059 D System theme seems to be: "windowsvista"
+    0.059 D Considering theme from theme factory: "windows"
+    0.059 D Considering theme from theme factory: "windowsxp"
+    0.059 D Considering theme from theme factory: "windowsvista"
+    0.059 D System theme has been determined to be: "WindowsVista"
+    0.059 D Loading theme "custom"
+    0.061 D <> Widget themes initialized.
+    0.061 D Instance path              :  "instances"
+    0.063 D Loading Instances...
+    0.063 D Discovering instances in "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer/instances"
+    0.063 D <> Instances loaded.
+    0.063 D Loading accounts...
+    0.064 C "Failed to read the account list file (accounts.json)."
+    0.064 D <> Accounts loaded.
+    0.065 D <> Cache initialized.
+    0.065 D Downloading Translations Index...
+    0.066 D Task "NetJob(Translations Index)" starting for the first time
+    0.104 D <> Icon theme set.
+    0.104 D <> Application theme set.
+    0.105 D <> Initialized analytics with tid "UA-87731965-2"
+    0.258 W QMetaObject::connectSlotsByName: No matching signal for on_actionViewSelectedModsFolder_triggered()
+    0.258 W QMetaObject::connectSlotsByName: No matching signal for on_actionInstanceSettings_triggered()
+    0.289 D Reloading news.
+    0.289 D Task "NetJob(News RSS Feed)" starting for the first time
+    0.289 D Checking for updates.
+    0.289 D Channel list isn't loaded yet. Loading channel list and deferring update check.
+    0.289 D Loading the channel list.
+    0.289 D Task "NetJob(Update System Channel List)" starting for the first time
+    0.289 D Task "NetJob(Checking for notifications)" starting for the first time
+    0.358 D Viewport size "800x600"
+    0.358 D RAM size is 32694 MB
+    0.358 D [Analytics] "ScreenView: Main Window"
+    0.358 D <> Main window shown.
+    0.361 D Downloading  "https://files.multimc.org/translations/index_v2.json"
+    1.087 D Downloading  "https://multimc.org/rss.xml"
+    1.087 D Downloading  "https://files.multimc.org/update/win32/channels.json"
+    1.088 D Downloading  "https://files.multimc.org/notifications.json"
+    1.117 D Dir changed: "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer/translations"
+    1.752 D Download succeeded: "https://files.multimc.org/translations/index_v2.json"
+    1.752 D Task "NetJob(Translations Index)" succeeded
+    1.752 D Got translations index!
+    1.753 D Download succeeded: "https://files.multimc.org/notifications.json"
+    1.757 D Task "NetJob(Checking for notifications)" succeeded
+    1.757 D Dir changed: "E:/ZtrolixGames/Project White-Pebble/Project White-Pebble Installer/translations"
+    1.759 D Download succeeded: "https://files.multimc.org/update/win32/channels.json"
+    1.759 D Task "NetJob(Update System Channel List)" succeeded
+    1.759 D Successfully loaded UpdateChecker channel list.
+    1.759 D Checking for updates.
+    1.759 D channelEntry =  "stable"
+    1.759 D channelEntry =  "develop"
+    1.759 D is intended update channel:  "develop"
+    1.759 D is current update channel:  "develop"
+    1.759 D channelEntry =  "main"
+    1.759 D m_repoUrl =  "http://files.multimc.org/update/win32/develop/"
+    1.759 D Task "NetJob(GoUpdate Repository Index)" starting for the first time
+    1.760 D Downloading  "http://files.multimc.org/update/win32/develop/index.json"
+    1.797 D Location header: QUrl("https://files.multimc.org/update/win32/develop/index.json")
+    1.797 D Following redirect to  "https://files.multimc.org/update/win32/develop/index.json"
+    1.797 D Downloading  "https://files.multimc.org/update/win32/develop/index.json"
+    1.797 D Download redirected: "https://files.multimc.org/update/win32/develop/index.json"
+    2.005 D Download succeeded: "https://multimc.org/rss.xml"
+    2.005 D Task "NetJob(News RSS Feed)" succeeded
+    2.005 D Finished loading RSS feed.
+    2.007 D Loaded news entry "0.7.0 - The forever develop release"
+    2.007 D Loaded news entry "0.6.16 - The Modpack Apocalypse"
+    2.007 D Loaded news entry "Migration to Microsoft account is required"
+    2.007 D Loaded news entry "IMPORTANT MESSAGE - Security vulnerability in Minecraft"
+    2.007 D Loaded news entry "0.6.14 - Microsoft account refinement, Forge 1.17+ and other fixes"
+    2.007 D Loaded news entry "0.6.13 - Microsoft account integration"
+    2.007 D Loaded news entry "0.6.12 - Spring cleaning and modpack platforms"
+    2.007 D Loaded news entry "About Microsoft accounts"
+    2.008 D Loaded news entry "0.6.7 - UI fixes and important metadata news - update required!"
+    2.008 D Loaded news entry "0.6.5 - translation UI and legacy sound fixes"
+    2.008 D Loaded news entry "0.6.4 - better translation workflow and new FTB API location"
+    2.008 D Loaded news entry "0.6.3 - The Big Sync"
+    2.008 D Loaded news entry "0.6.2 Released!"
+    2.008 D Loaded news entry "0.6.1 Released!"
+    2.008 D Loaded news entry "0.6.0 Released!"
+    2.008 D Loaded news entry "Introducing the Archive"
+    2.008 D Loaded news entry "0.5.1 - Bugfixes."
+    2.008 D Loaded news entry "0.5.0 - Running multiple instances at the same time!"
+    2.008 D Loaded news entry "0.4.11 - OSX 10.7 fix and workaround for Minecraft 1.9 compatibility"
+    2.008 D Loaded news entry "0.4.10 - Another wifi fix"
+    2.008 D Loaded news entry "0.4.9 - the Windows wifi fix."
+    2.008 D Loaded news entry "0.4.8 - Worlds and more."
+    2.008 D Loaded news entry "0.4.7 - What 0.4.6 should have been."
+    2.008 D Loaded news entry "0.4.6 - Bug fixes and improvements!"
+    2.008 D Loaded news entry "0.4.5 - Translations, Themes, and Technic"
+    2.008 D Loaded news entry "0.4 out - Jar mods, UI changes, and more!"
+    2.008 D Loaded news entry "Introducing QuickMods - A better way to install mods"
+    2.008 D Loaded news entry "Support us on Patreon!"
+    2.008 D Loaded news entry "Heartbleed Vulnerability Update (fixed!)"
+    2.009 D Loaded news entry "Announcing MultiMC 6"
+    2.009 D Loaded news entry "0.3 - The big feature update."
+    2.009 D Loaded news entry "First official MultiMC 5 release!"
+    2.009 D Loaded news entry "MultiMC Status Update"
+    2.009 D News loading succeeded.

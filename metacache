@@ -1,0 +1,93 @@
+{
+    "entries": [
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e04e-356\"",
+            "last_changed_timestamp": 1688461560000,
+            "md5sum": "c97d9402d687a1a071d69ce681291fa3",
+            "path": "com.mumfrey.liteloader/1.12.2-SNAPSHOT.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:10 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e04e-2c5f\"",
+            "last_changed_timestamp": 1688461558000,
+            "md5sum": "7ce1cbeff79346111b19fc36ed2d0307",
+            "path": "com.mumfrey.liteloader/index.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:10 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e04e-601\"",
+            "last_changed_timestamp": 1688461544000,
+            "md5sum": "3ebf573cff6a7390f7748d9cf16c1d87",
+            "path": "index.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:10 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "\"64a3e04e-3a5f\"",
+            "last_changed_timestamp": 1688461544000,
+            "md5sum": "05401aef89c3527b3a5189d4f51d8ec2",
+            "path": "net.minecraft/1.12.2.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:10 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "\"64a3e04f-494fa\"",
+            "last_changed_timestamp": 1688461518000,
+            "md5sum": "8af9d1db70fc94cf04d2e7ef7e573cfe",
+            "path": "net.minecraft/index.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:11 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e04f-2708\"",
+            "last_changed_timestamp": 1688461550000,
+            "md5sum": "1ddcf952f2ae2b67b79e65433b64afe3",
+            "path": "net.minecraftforge/14.23.5.2859.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:11 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e051-173083\"",
+            "last_changed_timestamp": 1688461548000,
+            "md5sum": "4fa6a3299370c9a59c1b799a556c4e5e",
+            "path": "net.minecraftforge/index.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:13 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e051-1455\"",
+            "last_changed_timestamp": 1688461544000,
+            "md5sum": "3002804c2ee47b00365854e32989a079",
+            "path": "org.lwjgl/2.9.4-nightly-20150209.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:13 GMT"
+        },
+        {
+            "base": "meta",
+            "etag": "W/\"64a3e051-8f7\"",
+            "last_changed_timestamp": 1688461560000,
+            "md5sum": "46ff709bc3949f67990ee2bfebae70b1",
+            "path": "org.lwjgl/index.json",
+            "remote_changed_timestamp": "Tue, 04 Jul 2023 09:03:13 GMT"
+        },
+        {
+            "base": "root",
+            "etag": "\"550e6bb5-356\"",
+            "last_changed_timestamp": 1688461514000,
+            "md5sum": "a8a8094545267c76ad51fe276b0e9e8f",
+            "path": "notifications.json",
+            "remote_changed_timestamp": "Sun, 22 Mar 2015 07:13:57 GMT"
+        },
+        {
+            "base": "translations",
+            "etag": "\"647c6bf0-3e3d\"",
+            "last_changed_timestamp": 1688461484000,
+            "md5sum": "64eb5323c137fde7680ed29a17c53d65",
+            "path": "index_v2.json",
+            "remote_changed_timestamp": "Sun, 04 Jun 2023 10:48:16 GMT"
+        }
+    ],
+    "version": "1"
+}
