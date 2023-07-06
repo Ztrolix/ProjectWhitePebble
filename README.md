@@ -48,7 +48,9 @@
 RidgeMC is a new Minecraft 1.12.2 mod loader made for White-Pebble!
 We are hoping to get it released later on this month
 
-## Releases
+## Installs
+
+### Versions
 #### [1.1 [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1
 #### [2.5 [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5)
@@ -57,3 +59,33 @@ We are hoping to get it released later on this month
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1
 #### [4.0.Preview4](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.Preview4)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.Preview4
+
+### Minimum Requirements	
+
+#### CPU
+    Intel Core i3-3210, AMD A8-7600 APU, Apple M1 chip, or equivalent
+#### RAM
+    4 GB
+#### Integrated GPU
+    Intel HD Graphics 4000 (Ivy Bridge) or AMD Radeon R5 series (Kaveri APU) with OpenGL 4.4
+#### Discrete GPU   
+    GeForce 400 Series (410+) or AMD Radeon HD 7000 series with OpenGL 4.4.
+#### Storage
+    2 GB on 'C:' Drive
+#### Operating System
+    Windows 10 or Windows 11
+
+### Recommended Requirements	
+
+#### CPU
+    Intel Core i5-4690, AMD A10-7800 APU, or equivalent
+#### RAM
+    8 GB
+#### Integrated GPU
+    Any modern non-entry-level graphics card with OpenGL 4.5.
+#### Discrete GPU   
+    GeForce 700 Series (740+) or Radeon R7 200.
+#### Storage
+    4 GB on 'C:' Drive
+#### Operating System
+    Windows 10 or Windows 11
