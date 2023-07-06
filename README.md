@@ -28,6 +28,8 @@
 - JDK 17
 - ZtroLoader
 - Bedrock Launcher
+- Supports all versions of Bedrock
+- New Bedrock Install Menu
 
 ## RidgeMC
 ### Info
