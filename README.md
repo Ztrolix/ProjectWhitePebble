@@ -36,6 +36,10 @@
 - Beta
 - Old Java Launcher
 
+### Images
+
+![UI-Hub](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## RidgeMC
 ### Info
 RidgeMC is a new Minecraft 1.12.2 mod loader made for White-Pebble!
