@@ -59,8 +59,8 @@ We are hoping to get it released later on this month
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1
 #### [4.0.0](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0
-#### [4.1.Preview1](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview1)
-    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview1
+#### [4.1.Preview2](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview2)
+    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview2
 
 ### Minimum Requirements	
 
