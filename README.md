@@ -59,6 +59,8 @@ We are hoping to get it released later on this month
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1
 #### [4.0.0](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0
+#### [4.1.Preview1](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview1)
+    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.Preview1
 
 ### Minimum Requirements	
 
@@ -89,3 +91,25 @@ We are hoping to get it released later on this month
     4 GB on 'C:' Drive
 #### Operating System
     Windows 10 or Windows 11
+
+## FAQ
+
+<details>
+<summary>Qt platform plugin failed!</summary>
+
+##### Output
+This application failed to start because it could not find or load the Qt platform plugin "windows"
+
+Reinstalling the application may fix this problem.
+
+![Photo](https://github.com/Ztrolix/ProjectWhitePebble/blob/main/qtfailed.png?raw=true)
+
+#### How to fix
+
+##### Way 1
+1. Uninstall Project White-Pebble
+2. Reinstall Project White-Pebble
+
+> if all of these options fail for you wou will have to go to "Other Launchers" in the hub.
+
+</details>
