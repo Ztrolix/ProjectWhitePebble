@@ -25,6 +25,9 @@ v30r = v30.read()
 v31 = open("3.1.txt", "r")
 v31r = v31.read()
 
+v41 = open("4.1.txt", "r")
+v41r = v41.read()
+
 while True:
     v11 = open("1.1.txt", "r")
     v11r = v11.read()
@@ -49,6 +52,9 @@ while True:
     
     v31 = open("3.1.txt", "r")
     v31r = v31.read()
+    
+    v41 = open("4.1.txt", "r")
+    v41r = v41.read()
     
     print("0) Custom Install")
     if (v11r == "True") :
@@ -83,6 +89,10 @@ while True:
         print("8) White-Pebble v3.1 [Installed]")
     else :
         print("8) White-Pebble v3.1 [Not-Installed]")
+    if (v41r == "True") :
+        print("9) White-Pebble v4.1 [Installed]")
+    else :
+        print("9) White-Pebble v4.1 [Not-Installed]")
     install = input(": ")
     
     if (install == "0") :
@@ -135,6 +145,12 @@ while True:
         os.system('cls' if os.name == 'nt' else 'clear')
     elif (install == "8") :
         os.system("White-Pebble-v3.1-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "9") :
+        os.system("White-Pebble-v4.1-installer.py")
         print("Done!")
         print()
         time.sleep(3)
