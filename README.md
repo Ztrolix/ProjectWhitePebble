@@ -48,7 +48,7 @@
 - Supporting InfDev
 - Supporting Beta
 - Supporting all versions of Bedrock
-- Briefly Supporting all versions of Bedrock
+- Briefly Supporting all versions of Java
 - Changed Main Launcher
 - Changed Default Account
 
