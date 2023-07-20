@@ -18,23 +18,39 @@
 - UI Hub
 - New Textures
 
-### What's new in 4.X.Preview?
+### What's new in 4.X?
 
-- AutoUpdater
-- Settings Menu
-- UI for Installs
-- RidgeMC Loader
-- Better Launcher
-- JDK 17
-- ZtroLoader
-- Bedrock Launcher
-- Supports all versions of Bedrock
-- New Bedrock Install Menu
-- Old Alpha 
-- Alpha
-- InfDev
-- Beta
-- Old Java Launcher
+- Removed Fabric Git
+- Removed Forge Git
+- Removed NoCubes Mod
+- Removed Minecraft Jars
+- Added Bedrock Install Menu
+- Added Old Java Launcher
+- Added AutoUpdater
+- Added Settings Menu
+- Added UI for Installs
+- Added RidgeMC Loader
+- Added Better Launcher
+- Added ZtroLoader
+- Added Bedrock Launcher
+- Added JDK 20
+- Added JRE 1.8
+- Added Hello Minecraft Launcher
+- Added Prism Launcher
+- Added Other Launcher Menu
+- Added Nukes
+- Added FirstAid
+- Added Godot Hub
+- Added Godot Stable
+- Added Godot Beta
+- Supporting Old Alpha 
+- Supporting Alpha
+- Supporting InfDev
+- Supporting Beta
+- Supporting all versions of Bedrock
+- Briefly Supporting all versions of Bedrock
+- Changed Main Launcher
+- Changed Default Account
 
 ### Images
 
