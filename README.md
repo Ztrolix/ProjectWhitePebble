@@ -111,7 +111,7 @@ We are hoping to get it released later on this month
 ## FAQ
 
 <details>
-<summary>Qt platform plugin failed!</summary>
+<summary>Qt platform plugin failed! [OUT DATED]</summary>
 
 ##### Output
 This application failed to start because it could not find or load the Qt platform plugin "windows"
