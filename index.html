@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>White-Pebble</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">White Pebble</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RELEASES</a>
+       <!--> <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="#resume" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large">
+            <p class="download-text">Download</p>
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">White-Pebble</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">White-Pebble</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RELEASES</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <h1>White-Pebble</h2>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              White-Pebble is a custom Minecraft 1.12.2 modded Forge launcher designed to enhance your gaming experience. With a user-friendly interface and seamless integration, White-Pebble brings a new level of convenience to Minecraft modding. The launcher allows you to effortlessly install, manage, and update mods, making it easier than ever to customize your gameplay.
+            </p>
+            <p class=""> 
+              Explore a vast array of mods available through White-Pebble's integrated mod repository, where you can browse and select from a curated collection of popular and community-created modifications. Discover new biomes, mobs, weapons, tools, and much more to enrich your Minecraft world and gameplay.
+            </p>
+            <p class=""> 
+              The launcher ensures compatibility and stability by automatically handling the required dependencies and conflicts between various mods, letting you focus on the fun of playing rather than troubleshooting. White-Pebble also offers an intuitive backup system, enabling you to save your mod configurations and worlds, allowing you to switch between different mod setups with ease.
+            </p>
+            <p class=""> 
+              Stay connected with the White-Pebble community through the launcher's built-in chat and forum features. Share your experiences, seek help, or showcase your modded creations with other players who share the same passion for Minecraft modding.
+            </p>
+            <p class=""> 
+              Experience the limitless possibilities of Minecraft with White-Pebble - a reliable and efficient modded Forge launcher that takes your gaming adventure to a whole new level!
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RELEASES</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">4.X</h3>
+              <div class="">
+                <h4>Latest Version</h4>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.3.0/WhitePebble-v4.3.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.3</a>
+
+                <h4>Older Versions</h4>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.1.0/WhitePebble-v4.1.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.0.0/WhitePebble-v4.0.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.0</button>
+
+                <h4>Preview Version</h4>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.Preview2/WhitePebble-v4.4.Preview2-Installer.exe" download><i class="fa fa-download"></i> Download 4.4.Preview2</button>
+              </div>
+
+              <h3 class="w3-border-amber">3.X</h3>
+              <div class="">
+                <h4>Latest Version</h4>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1.1/WhitePebble-v3.1.1-Installer.exe" download><i class="fa fa-download"></i> Download 3.1.1</button>
+
+                <h4>Older Versions</h4>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1/WhitePebble-v3.1-Installer.exe" download><i class="fa fa-download"></i> Download 3.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/WhitePebble-v3.0-Installer.exe" download><i class="fa fa-download"></i> Download 3.0</button>
+              </div>
+            </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 - White-Pebble</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
