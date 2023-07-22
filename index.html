@@ -21,8 +21,80 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
     <link rel="icon" type="image/x-icon" href="avatar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    position: fixed;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.popup a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FFA500;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.popup button {
+  background-color: #FFA500
+}
+    </style>
   </head>
   <body>   
+    <div id="popup" class="popup">
+        <h2>Downloading...</h2>
+        <p>
+            Thanks for downloading with us! We hope you enjoy your mining!
+        </p>
+        <a class="popup a" href="#" id="close">Dismiss</a>
+    </div>
     <section>
       <!-- MOBILE NAVIGATION -->
       <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
@@ -85,42 +157,42 @@
               <h3 class="w3-border-amber">4.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.3.0/WhitePebble-v4.3.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.3</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.3.0/WhitePebble-v4.3.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.3</a>
 
                 <h4>Older Versions</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.1.0/WhitePebble-v4.1.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.1</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.0.0/WhitePebble-v4.0.0-Installer.exe" download><i class="fa fa-download"></i> Download 4.0</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.1.0/WhitePebble-v4.1.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.0.0/WhitePebble-v4.0.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.0</button>
 
                 <h4>Preview Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.Preview2/WhitePebble-v4.4.Preview2-Installer.exe" download><i class="fa fa-download"></i> Download 4.4.Preview2</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.Preview2/WhitePebble-v4.4.Preview2-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.4.Preview2</button>
               </div>
 
               <h3 class="w3-border-amber">3.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1.1/WhitePebble-v3.1.1-Installer.exe" download><i class="fa fa-download"></i> Download 3.1.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1.1/WhitePebble-v3.1.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.1.1</button>
 
                 <h4>Older Versions</h4>
                 <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1/WhitePebble-v3.1-Installer.exe" download><i class="fa fa-download"></i> Download 3.1</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/WhitePebble-v3.0-Installer.exe" download><i class="fa fa-download"></i> Download 3.0</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/WhitePebble-v3.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.0</button>
               </div>
 
               <h3 class="w3-border-amber">2.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/PrisonMC-Installer-2.5.exe" download><i class="fa fa-download"></i> Download 2.5</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/PrisonMC-Installer-2.5.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.5</button>
 
                 <h4>Older Versions</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.4.zip" download><i class="fa fa-download"></i> Download 2.4</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.3.zip" download><i class="fa fa-download"></i> Download 2.3</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.2.zip" download><i class="fa fa-download"></i> Download 2.2</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.1.zip" download><i class="fa fa-download"></i> Download 2.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.4.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.4</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.3.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.3</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.2.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.2</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.1</button>
               </div>
 
               <h3 class="w3-border-amber">1.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v1.1.zip" download><i class="fa fa-download"></i> Download 1.1</button>
+                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v1.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 1.1</button>
               </div>
             </div>
 
@@ -149,5 +221,18 @@
       // Script to load feather icons
       feather.replace()
     </script>
+    <script type="text/javascript">
+function loaddownload() {
+  var x = document.getElementById("popup");
+  x.style.display = "block";
+  x.style.display = "block";
+}
+            
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+    document.querySelector("#popup").style.display = "none";
+});
+    </script>
   </body>
 </html>
+
