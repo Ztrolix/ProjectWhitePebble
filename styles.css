@@ -44,6 +44,12 @@ body * {
 
 }
 
+.inv {
+  background-color: white; 
+  color: white; ;
+
+}
+
 .button1:hover {
   background-color: #FFA500;
   color: white;
