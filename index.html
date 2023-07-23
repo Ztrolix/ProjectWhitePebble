@@ -94,6 +94,12 @@
         </p>
         <a class="popup a" href="#" id="close">Dismiss</a>
     </div>
+    <div id="redirectpopup" class="popup">
+        <h2>Redirecting...</h2>
+        <p class="popupp">
+            We are redirecting you to a different website...
+        </p>
+    </div>
     <section>
       <!-- MOBILE NAVIGATION -->
       <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
@@ -102,6 +108,7 @@
       </div>
       <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
         <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#trailer" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">TRAILER</a>
         <a href="#releases" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RELEASES</a>
         <a href="#gitreleases" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">GITHUB RELEASES</a>
        <!--> <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
@@ -120,16 +127,17 @@
       <!--CV CONTENT SECTION-->
       <section class="w3-threequarter w3-padding-large w3-right">
         <!--DESKTOP NAVIGATION-->
-        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+        <div  class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
           <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">White-Pebble</a>
           <a href="#gitreleases" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">GITHUB RELEASES</a>
           <a href="#releases" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RELEASES</a>
+          <a href="#trailer" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">TRAILER</a>
           <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
         </div>
         <div class="content-container w3-margin-top-2">
           <!--HOME SECTION-->
           <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
-            <h1>White-Pebble</h2>
+            <center><h1 ><img src="avatar.png" class="w3-border w3-border-sand"/> <img src="https://raw.githubusercontent.com/Ztrolix/ProjectWhitePebble/main/WHITE-PEBBLE.png" class="w3-border w3-border-sand"/></h2></center>
             <p></p>
           </div>
 
@@ -153,6 +161,14 @@
             </p>
           </div>
 
+          <div id="trailer" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">TRAILER</h2>
+            <div class="h_iframe">
+              <img class="ratio" src="http://placehold.it/16x9"/>
+              <iframe class="w3-border-bottom w3-large" src="http://www.youtube.com/embed/u5R377m0dkA" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
           <!--RESUME-->
           <div id="releases" class="w3-container w3-margin-top-20-percent w3-cursive">
             <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RELEASES</h2>
@@ -169,77 +185,72 @@
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.0.0/WhitePebble-v4.0.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.0</a>
 
                 <h4>Preview Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.Preview2/WhitePebble-v4.4.Preview2-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.4.Preview2</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.Preview2/WhitePebble-v4.4.Preview2-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.4.Preview2</a>
               </div>
 
               <h3 class="w3-border-amber">3.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1.1/WhitePebble-v3.1.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.1.1</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1.1/WhitePebble-v3.1.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.1.1</a>
 
                 <h4>Older Versions</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1/WhitePebble-v3.1-Installer.exe" download><i class="fa fa-download"></i> Download 3.1</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/WhitePebble-v3.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.0</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v3.1/WhitePebble-v3.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.1</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/WhitePebble-v3.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 3.0</a>
               </div>
 
               <h3 class="w3-border-amber">2.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/PrisonMC-Installer-2.5.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.5</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/oldversions/PrisonMC-Installer-2.5.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.5</a>
 
                 <h4>Older Versions</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.4.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.4</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.3.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.3</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.2.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.2</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.1</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.4.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.4</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.3.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.3</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.2.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.2</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v2.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 2.1</a>
               </div>
 
               <h3 class="w3-border-amber">1.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v1.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 1.1</button>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/Prison.v1.1.zip" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 1.1</a>
               </div>
+            </div>
             </div>
 
             <div id="gitreleases" class="w3-container w3-margin-top-20-percent w3-cursive">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;"><i class="fa fa-github"></i> GITHUB RELEASES</h2>
-            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;"><i class="fa fa-github"></i> GITHUB RELEASES</h2>
+              <div class="w3-container w3-margin-top-2 w3-cursive">
 
-              <!--EMPLOYMENT HISTORY SECTION-->
-              <h3 class="w3-border-amber">4.X</h3>
-              <div class="">
-                <h4>Latest GitHub Version</h4>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 4.3</a>
+                <!--EMPLOYMENT HISTORY SECTION-->
+                <h3 class="w3-border-amber">4.X</h3>
+                <div class="">
+                  <h4>Latest Version</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 4.3</a>
 
-                <h4>Older GitHub Versions</h4>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.0/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 4.1</a>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 4.0</a>
+                  <h4>Older Versions</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 4.1</a>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 4.0</a>
 
-                <h4>Preview GitHub Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview2/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 4.4.Preview2</button>
-              </div>
+                  <h4>Preview Version</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview2" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 4.4.Preview2</a>
+                </div>
 
-              <h3 class="w3-border-amber">3.X</h3>
-              <div class="">
-                <h4>Latest GitHub Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1/"  onclick="loaddownload()"><i class="fa fa-github"></i> Download 3.1.1</button>
+                <h3 class="w3-border-amber">3.X</h3>
+                <div class="">
+                  <h4>Latest Version</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 3.1.1</a>
 
-                <h4>Older GitHub Versions</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 3.1</button>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/oldversions/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 3.0</button>
-              </div>
-
-              <h3 class="w3-border-amber">2.X</h3>
-              <div class="">
-                <h4>Latest GitHub Version</h4>
-                <button class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/oldversions/" onclick="loaddownload()"><i class="fa fa-github"></i> Download 2.5</button>
+                  <h4>Older Versions</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Download 3.1</a>
+                </div>
               </div>
             </div>
 
         <!--FOOTER-->
         <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
         <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
-          <p>© 2023 - White-Pebble</p>
+          <p>© 2023 White-Pebble™ | Powered By <i class="fa fa-github"></i> GitHub</p>
         <!-- End footer -->
         </footer>
 
@@ -271,6 +282,19 @@ function loaddownload() {
 document.querySelector("#close").addEventListener("click", function(){
     document.querySelector(".popup").style.display = "none";
     document.querySelector("#popup").style.display = "none";
+});
+    </script>
+    <script type="text/javascript">
+function loadredirectdownload() {
+  var x = document.getElementById("redirectpopup");
+  x.style.display = "block";
+  x.style.display = "block";
+}
+    
+var x = document.getElementById("redirectpopup");        
+document.querySelector("#close").addEventListener("click", function(){
+    x.style.display = "none";
+    x.style.display = "none";
 });
     </script>
   </body>
