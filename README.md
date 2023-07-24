@@ -1,6 +1,11 @@
 # Project White-Pebble
 
+
+
 ## White-Pebble
+
+### NOTE: DEVELOPMENT WILL BE SLOW DUE TO THE FACT THAT I HAVE SCHOOL
+
 ### What's new in 1.X?
 
 - FabricMC Loader
