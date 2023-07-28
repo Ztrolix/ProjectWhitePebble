@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +16,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <!--Montserrat font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
     <link rel="icon" type="image/x-icon" href="avatar.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76ec25f463.js" crossorigin="anonymous"></script>
+    <style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Google-Drive::before {
+   font: var(--fa-font-brands);
+    content: ' \f3aa';
+ }</style>
     <style media="screen">
       *,
 *:before,
@@ -136,11 +150,19 @@
 
       <!--CV CONTENT SECTION-->
       <section class="w3-threequarter w3-padding-large w3-right">
+
+
         <!--DESKTOP NAVIGATION-->
         <div  class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
           <a href="https://ztrolix.github.io/ProjectWhitePebble/#" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">White-Pebble</a>
         </div>
         <div class="content-container w3-margin-top-2">
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <center><h1 ><img src="avatar.png" class="w3-border w3-border-sand"/> <img src="https://raw.githubusercontent.com/Ztrolix/ProjectWhitePebble/main/WHITE-PEBBLE.png" class="w3-border w3-border-sand"/></h1></center>
+            <center><h1 >v4.4.0</h1></center>
+            <p></p>
+          </div>
+
           <div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive">
             <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">DOWNLOADS</h2>
             <div class="w3-container w3-margin-top-2 w3-cursive">
@@ -149,6 +171,20 @@
               <div class="">
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.0/WhitePebble-v4.4.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download 4.4</a>
                 <a class="button button1" href="https://www.mediafire.com/file/f56pqz714ix6tvp/WhitePebble-v4.4.0-Installer.exe/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download 4.4</a>
+                <a class="button button1" href="https://drive.google.com/file/d/10Mbo08lVQLZJBROGM2N5wgtAv2pUHpEO/view?usp=sharing" target="_blank" onclick="loaddownload()"><i class="Google-Drive fontawesomeicon"></i> Google Drive Download 4.4</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="fulldownloads" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">FULL BUNDLE DOWNLOADS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <div class="">
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.0/WhitePebble-v4.4.0-Installer-Full.zip" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download Full 4.4</a>
+                <a class="button button1" href="https://www.mediafire.com/file/v4vplsh4s2bbf65/WhitePebble-v4.4.0-Installer-Full.zip/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download Full 4.4</a>
+                <a class="button button1" href="https://drive.google.com/file/d/10OJpiC36x9D0UbD8HTMXvpqa3DpTaSFG/view?usp=sharing" target="_blank" onclick="loaddownload()"><i class="fa-brands fa-google-drive"></i> Google Drive Download Full 4.4</a>
               </div>
             </div>
           </div>
@@ -160,6 +196,7 @@
               <!--EMPLOYMENT HISTORY SECTION-->
               <div class="">
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Github 4.4</a>
+                <a class="button button1" href="https://drive.google.com/drive/folders/1kV6_HqegnmBhFsSQeDvx0tIOkp02DRmj?usp=drive_link" onclick="loadredirectdownload()"><i class="fa-brands fa-google-drive"></i> Google Drive 4.4</a>
               </div>
             </div>
           </div>
