@@ -40,14 +40,20 @@
 - Added Bedrock Launcher
 - Added JDK 20
 - Added JRE 1.8
+- Added LabyMod Launcher
+- Added Auto Install Forge
 - Added Hello Minecraft Launcher
 - Added Prism Launcher
 - Added Other Launcher Menu
 - Added Nukes
 - Added FirstAid
+- Added Custom Main Menu
+- Added Custom Loading Screen
+- Added MoreGUI
 - Added Godot Hub
 - Added Godot Stable
 - Added Godot Beta
+- Added HelloLauncher 3.5.5
 - Supporting Old Alpha 
 - Supporting Alpha
 - Supporting InfDev
