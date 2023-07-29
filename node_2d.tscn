@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://yhox5rd327ki"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasGroup" type="CanvasGroup" parent="."]
+position = Vector2(1989, 1058.5)
+
+[node name="Panel" type="Panel" parent="CanvasGroup"]
+offset_left = -2015.0
+offset_top = -1087.5
+offset_right = -1497.0
+offset_bottom = -100.5
+
+[node name="Window" type="Window" parent="CanvasGroup/Panel"]
+position = Vector2i(550, 300)
+size = Vector2i(500, 300)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CanvasGroup/Panel/Window"]
+
+[node name="TextEdit" type="TextEdit" parent="CanvasGroup/Panel/Window/CanvasLayer"]
+offset_right = 8.0
+offset_bottom = 8.0
+theme_override_font_sizes/font_size = 16
+text = "Welcome to the new test version of the hub!"
+placeholder_text = "Welcome to the new test version of the hub!"
+editable = false
+draw_tabs = true
+draw_spaces = true

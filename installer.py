@@ -28,6 +28,18 @@ v31r = v31.read()
 v41 = open("4.1.txt", "r")
 v41r = v41.read()
 
+v42 = open("4.2.txt", "r")
+v42r = v42.read()
+
+v43 = open("4.3.txt", "r")
+v43r = v43.read()
+
+v44 = open("4.4.txt", "r")
+v44r = v44.read()
+
+v441 = open("4.4.1.txt", "r")
+v441r = v441.read()
+
 while True:
     v11 = open("1.1.txt", "r")
     v11r = v11.read()
@@ -55,6 +67,18 @@ while True:
     
     v41 = open("4.1.txt", "r")
     v41r = v41.read()
+    
+    v42 = open("4.2.txt", "r")
+    v42r = v42.read()
+    
+    v43 = open("4.3.txt", "r")
+    v43r = v43.read()
+
+    v44 = open("4.4.txt", "r")
+    v44r = v44.read()
+
+    v441 = open("4.4.1.txt", "r")
+    v441r = v441.read()
     
     print("0) Custom Install")
     if (v11r == "True") :
@@ -93,6 +117,22 @@ while True:
         print("9) White-Pebble v4.1 [Installed]")
     else :
         print("9) White-Pebble v4.1 [Not-Installed]")
+    if (v42r == "True") :
+        print("10) White-Pebble v4.2 [Installed]")
+    else :
+        print("10) White-Pebble v4.2 [Not-Installed]")
+    if (v43r == "True") :
+        print("11) White-Pebble v4.3 [Installed]")
+    else :
+        print("11) White-Pebble v4.3 [Not-Installed]")
+    if (v44r == "True") :
+        print("12) White-Pebble v4.4 [Installed]")
+    else :
+        print("12) White-Pebble v4.4 [Not-Installed]")
+    if (v441r == "True") :
+        print("13) White-Pebble v4.4.1 [Installed]")
+    else :
+        print("13) White-Pebble v4.4.1 [Not-Installed]")
     install = input(": ")
     
     if (install == "0") :
@@ -151,6 +191,30 @@ while True:
         os.system('cls' if os.name == 'nt' else 'clear')
     elif (install == "9") :
         os.system("White-Pebble-v4.1-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "10") :
+        os.system("White-Pebble-v4.2-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "11") :
+        os.system("White-Pebble-v4.3-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "12") :
+        os.system("White-Pebble-v4.4-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "13") :
+        os.system("White-Pebble-v4.4.1-installer.py")
         print("Done!")
         print()
         time.sleep(3)

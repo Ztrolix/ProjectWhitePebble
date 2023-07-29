@@ -6,8 +6,8 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{0F0D6D45-808A-49F1-B61A-F78183101864}
 AppName=Project White-Pebble
-AppVersion=4.0.Preview4
-;AppVerName=Project White-Pebble 4.0.Preview4
+AppVersion=4.4.0
+;AppVerName=Project White-Pebble 4.4.0
 AppPublisher=Ztrolix, Inc.
 AppPublisherURL=https://github.com/Ztrolix/ProjectWhitePebble
 AppSupportURL=https://github.com/Ztrolix/ProjectWhitePebble
@@ -20,7 +20,7 @@ InfoBeforeFile=E:\ZtrolixGames\Project White-Pebble\Project White-Pebble Install
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=E:\ZtrolixGames\Project White-Pebble
-OutputBaseFilename=WhitePebble-v4.0.Preview4-Installer
+OutputBaseFilename=WhitePebble-v4.4.0-Installer
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
