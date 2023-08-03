@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>White-Pebble | 5.0 ERA</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="avatar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76ec25f463.js" crossorigin="anonymous"></script>
+    <style> 
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Google-Drive::before {
+   font: var(--fa-font-brands);
+    content: ' \f3aa';
+ }</style>
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    position: fixed;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popupp{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.popup a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FFA500;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.popup button{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FFA500;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+    </style>
+  </head>
+  <body>   
+    <div id="popup" class="popup">
+        <h2>Downloading...</h2>
+        <p class="popupp">
+            Thanks for downloading with us! We hope you enjoy your mining!
+        </p>
+        <a class="popup a" href="https://ztrolix.github.io/ProjectWhitePebble/#" id="close">Back To Home</a>
+        <a class="popup a" href="#" id="close">Dismiss</a>
+    </div>
+    <div id="redirectpopup" class="popup">
+        <h2>Redirecting...</h2>
+        <p class="popupp">
+            We are redirecting you to a different website...
+        </p>
+    </div>
+    <div id="downwarn" class="popup">
+        <h2>WARNING!</h2>
+        <p class="popupp">
+            This download is unsupported!
+            Anything you do may get corrupted or chashes!
+            Use at your own risk!
+        </p>
+        <a class="popup a" href="#" id="close">Dismiss</a>
+    </div>
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="https://ztrolix.github.io/ProjectWhitePebble/#" class="w3-bar-item w3-button w3-hover-none">White Pebble</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+
+
+        <!--DESKTOP NAVIGATION-->
+        <div  class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="https://ztrolix.github.io/ProjectWhitePebble/#" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">White-Pebble</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <center><h1 ><img src="avatar.png" class="w3-border w3-border-sand"/> <img src="https://raw.githubusercontent.com/Ztrolix/ProjectWhitePebble/main/WHITE-PEBBLE.png" class="w3-border w3-border-sand"/></h1></center>
+            <center><h1 >v5.0.0</h1></center>
+            <p></p>
+          </div>
+
+          <!--<div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">DOWNLOADS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <div class="">
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.1/WhitePebble-v4.4.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download 4.4.1</a>
+                <a class="button button1" href="https://www.mediafire.com/file/6ql30macydbtqtw/WhitePebble-v4.4.1-Installer.exe/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download 4.4.1</a>
+                <a class="button button1" href="https://drive.google.com/file/d/1PtKcABupyDauKUCvhobE9YBLu26wLCZC/view?usp=drive_link" target="_blank" onclick="loaddownload()"><i class="Google-Drive fontawesomeicon"></i> Google Drive Download 4.4.1</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="fulldownloads" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">FULL BUNDLE DOWNLOADS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <div class="">
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.1/WhitePebble-v4.4.1-Installer-Full.zip" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download Full 4.4.1</a>
+                <a class="button button1" href="https://www.mediafire.com/file/0ehoqg7tfjryw08/WhitePebble-v4.4.1-Installer-Full.zip/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download Full 4.4.1</a>
+                <a class="button button1" href="https://drive.google.com/file/d/1QB4yNIyvfKTAao9G7mNflbg8JxRNVMO9/view?usp=drive_link" target="_blank" onclick="loaddownload()"><i class="fa-brands fa-google-drive"></i> Google Drive Download Full 4.4.1</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="compare" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">COMPARE</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <div class="">
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 3.x & 4.x</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 2.x & 4.x</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 1.x & 4.x</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="websites" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">WEBSITES</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <div class="">
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Github 4.4.1</a>
+                <a class="button button1" href="https://drive.google.com/drive/folders/1OjKaDaMxElYCTAYcs4CtwUg4lt8ILb9a?usp=drive_link" onclick="loadredirectdownload()"><i class="fa-brands fa-google-drive"></i> Google Drive 4.4.1</a>
+              </div>
+            </div>
+          </div>-->
+          <!--HOME SECTION-->
+          <!--ABOUT SECTION-->
+
+          <div id="upcoming" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">UPCOMING</h2>
+            <p class="w3-margin-top-2"> 
+              A new startup launcher will be coming making it have less GB to download.
+                You will not have to download the app from the launcher now and we added a new download system. We romoved JRE 1.8 and JDK 20 because it was 1GB and you need these to download it anyway. The new launcher allows you to download other launchers as well! So this can also because a download manager but it is not recomended as it can corrupt the files if you download anything other that Official White-Pebble applications but you can still get custom modpacks. All of this and more will be releasing on the 6th of August 3:15 AEST.
+            </p>
+            <p class=""> 
+              This project is called Project White-Stain but when it is release it is going to be called Project White-Pebble again.
+                This is going to be one of our most biggest updates through out other than the release of 4.X that one was a big update but this is going to be bigger.
+            </p>
+          </div>
+
+          <div id="date" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RELEASE DATE</h2>
+            <p class="w3-margin-top-2"> 
+              All of this and more will be releasing on the 6th of August 3:15 AEST.
+            </p>
+          </div>
+
+          <div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">DOWNLOADS</h2>
+            <div class="">
+                <h4>Latest Version</h4>
+                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
+                <h5>Coming soon!</h5>
+            </div>
+            <div class="">
+                <h4>Older Versions</h4>
+                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
+                <h5>There is no available versions.</h5>
+            </div>
+            <div class="">
+                <h4>Preview Version</h4>
+                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
+                <h5>There is no available versions.</h5>
+            </div>
+          </div>
+
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              White-Pebble is a custom Minecraft 1.12.2 modded Forge launcher designed to enhance your gaming experience. With a user-friendly interface and seamless integration, White-Pebble brings a new level of convenience to Minecraft modding. The launcher allows you to effortlessly install, manage, and update mods, making it easier than ever to customize your gameplay.
+            </p>
+            <p class=""> 
+              Explore a vast array of mods available through White-Pebble's integrated mod repository, where you can browse and select from a curated collection of popular and community-created modifications. Discover new biomes, mobs, weapons, tools, and much more to enrich your Minecraft world and gameplay.
+            </p>
+            <p class=""> 
+              The launcher ensures compatibility and stability by automatically handling the required dependencies and conflicts between various mods, letting you focus on the fun of playing rather than troubleshooting. White-Pebble also offers an intuitive backup system, enabling you to save your mod configurations and worlds, allowing you to switch between different mod setups with ease.
+            </p>
+            <p class=""> 
+              Stay connected with the White-Pebble community through the launcher's built-in chat and forum features. Share your experiences, seek help, or showcase your modded creations with other players who share the same passion for Minecraft modding.
+            </p>
+            <p class=""> 
+              Experience the limitless possibilities of Minecraft with White-Pebble - a reliable and efficient modded Forge launcher that takes your gaming adventure to a whole new level!
+            </p>
+          </div>
+
+          <!--RESUME-->
+
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 White-Pebble™ | Powered By <i class="fa fa-github"></i> GitHub</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+    <script type="text/javascript">
+function loaddownload() {
+  var x = document.getElementById("popup");
+  x.style.display = "block";
+  x.style.display = "block";
+}
+            
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+    document.querySelector("#popup").style.display = "none";
+});
+    </script>
+    <script type="text/javascript">
+function loadredirectdownload() {
+  var x = document.getElementById("redirectpopup");
+  x.style.display = "block";
+  x.style.display = "block";
+}
+    
+var x = document.getElementById("redirectpopup");        
+document.querySelector("#close").addEventListener("click", function(){
+    x.style.display = "none";
+    x.style.display = "none";
+});
+    </script>
+    <script type="text/javascript">
+function warndownload() {
+  var x = document.getElementById("downwarn");
+  x.style.display = "block";
+  x.style.display = "block";
+}
+            
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+    document.querySelector("#popup").style.display = "none";
+});
+    </script>
+  </body>
+</html>
