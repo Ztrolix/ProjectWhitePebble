@@ -81,13 +81,13 @@ We are hoping to get it released later on this month
 ## Installs
 
 ### Versions
-#### [1.1 [END OF SUPPORT]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1)
-    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1
-#### [2.5 [END OF SUPPORT]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5)
-    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5
+#### [1.1.0 [END OF SUPPORT]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1.0)
+    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1.0
+#### [2.5.0 [END OF SUPPORT]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5.0)
+    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5.0
 #### [3.1.1 [LTS]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1
-#### [4.3.0 [STS]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1)
+#### [4.4.1 [STS]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1
 #### [5.0.0 [NOT RELEASED]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v5.0.0)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v5.0.0
