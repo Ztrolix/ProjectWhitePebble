@@ -1,9 +1,5 @@
 # Project White-Pebble
-
-
-
 ## White-Pebble
-
 
 ### What's new in 1.X?
 
