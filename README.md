@@ -114,7 +114,7 @@ We are hoping to get it released later on this month
 #### Discrete GPU   
     GeForce 700 Series (740+) or Radeon R7 200.
 #### Storage
-    4 GB on 'C:' Drive
+    5 GB on 'C:' Drive
 #### Operating System
     Windows 10 or Windows 11
 
