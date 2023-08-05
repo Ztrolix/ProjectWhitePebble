@@ -1,0 +1,1 @@
+x = MsgBox("Successfully installed White-Pebble!",0,"White-Pebble - Installer")
