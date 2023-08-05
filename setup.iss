@@ -4,15 +4,15 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{5BB7CA21-6FFA-49B3-BAFF-7E2EC08439F6}
-AppName=White-Pebble Launcher
-AppVersion=5.0.0
-;AppVerName=White-Pebble Launcher 5.0.0
+AppId={{0F0D6D45-808A-49F1-B61A-F78183101864}
+AppName=Project White-Pebble
+AppVersion=v5.0.0
+;AppVerName=Project White-Pebble 5.0.0
 AppPublisher=Ztrolix, Inc.
-AppPublisherURL=https://ztrolix.github.io/ProjectWhitePebble/#
-AppSupportURL=https://ztrolix.github.io/ProjectWhitePebble/#
-AppUpdatesURL=https://ztrolix.github.io/ProjectWhitePebble/#
-DefaultDirName=C:\White-Pebble
+AppPublisherURL=https://github.com/Ztrolix/ProjectWhitePebble
+AppSupportURL=https://github.com/Ztrolix/ProjectWhitePebble
+AppUpdatesURL=https://github.com/Ztrolix/ProjectWhitePebble
+DefaultDirName=C:\White-Pebble\White-Pebble-5.0
 DisableDirPage=yes
 DisableProgramGroupPage=yes
 LicenseFile=E:\ZtrolixGames\Project White-Pebble\White-Pebble-v5.0\license.txt
@@ -20,8 +20,7 @@ InfoBeforeFile=E:\ZtrolixGames\Project White-Pebble\White-Pebble-v5.0\terms.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=E:\ZtrolixGames\Project White-Pebble
-OutputBaseFilename=WhitePebble-v5.0.0-Launcher-Installer
-SetupIconFile=E:\ZtrolixGames\Project White-Pebble\White-Pebble-v5.0\mclaunchericon.ico
+OutputBaseFilename=WhitePebble-v5.0.0-Installer
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -33,23 +32,14 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\ZtrolixGames\Project White-Pebble\Project White-Pebble Installer\Project White-Pebble Launcher.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\ZtrolixGames\Project White-Pebble\Project White-Pebble Installer\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\ZtrolixGames\Project White-Pebble\Project White-Pebble Installer\Dependencies\python-installer.bat"; DestDir: "{app}"; Flags: isreadme
-Source: "E:\ZtrolixGames\Project White-Pebble\Project White-Pebble Installer\Dependencies\java-installer.bat"; DestDir: "{app}"; Flags: isreadme
+Source: "E:\ZtrolixGames\Project White-Pebble\White-Pebble-v5.0\Project White-Pebble.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\ZtrolixGames\Project White-Pebble\White-Pebble-v5.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
-[Registry]
-Root: HKA; Subkey: "Software\Classes\.myp\OpenWithProgids"; ValueType: string; ValueName: "White-PebbleLauncherFile.myp"; ValueData: ""; Flags: uninsdeletevalue
-Root: HKA; Subkey: "Software\Classes\White-PebbleLauncherFile.myp"; ValueType: string; ValueName: ""; ValueData: "White-Pebble Launcher File"; Flags: uninsdeletekey
-Root: HKA; Subkey: "Software\Classes\White-PebbleLauncherFile.myp\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\Project White-Pebble Launcher.exe,0"
-Root: HKA; Subkey: "Software\Classes\White-PebbleLauncherFile.myp\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\Project White-Pebble Launcher.exe"" ""%1"""
-Root: HKA; Subkey: "Software\Classes\Applications\Project White-Pebble Launcher.exe\SupportedTypes"; ValueType: string; ValueName: ".myp"; ValueData: ""
-
 [Icons]
-Name: "{autoprograms}\White-Pebble Launcher"; Filename: "{app}\Project White-Pebble Launcher.exe"
-Name: "{autodesktop}\White-Pebble Launcher"; Filename: "{app}\Project White-Pebble Launcher.exe"; Tasks: desktopicon
+Name: "{autoprograms}\Project White-Pebble"; Filename: "{app}\Project White-Pebble.exe"
+Name: "{autodesktop}\Project White-Pebble"; Filename: "{app}\Project White-Pebble.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\Project White-Pebble Launcher.exe"; Description: "{cm:LaunchProgram,White-Pebble Launcher}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\Project White-Pebble.exe"; Description: "{cm:LaunchProgram,Project White-Pebble}"; Flags: nowait postinstall skipifsilent
 

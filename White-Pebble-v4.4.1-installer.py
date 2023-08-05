@@ -6,6 +6,16 @@ import zipfile
 import subprocess
 import time
 
+def installedTrue():
+    f = open("4.4.1.txt", "w")
+    f.write("True")
+    f.close()
+
+def installedFalse():
+    d = open("4.4.1.txt", "w")
+    d.write("False")
+    d.close()
+
 def version():
     print("What version of Forge do you want?")
     print("1.12.2-14.23.5.2859")
@@ -17,24 +27,32 @@ def download(forge_version):
     forge_url = f"https://files.minecraftforge.net/maven/net/minecraftforge/forge/{forge_version}/forge-{forge_version}-installer.jar"
     forge_url2 = f"https://files.minecraftforge.net/maven/net/minecraftforge/forge/{forge_version}/forge-{forge_version}-universal.jar"
     
-    print(f"Downloading Minecraft Forge version {forge_version} Installer...")
-    urllib.request.urlretrieve(forge_url, "forge-installer.jar")
-    print("Download complete!")
+    try:
+        print(f"Downloading Minecraft Forge version {forge_version} Installer...")
+        urllib.request.urlretrieve(forge_url, "forge-installer.jar")
+        print("Download complete!")
+    except:
+        print("An error occurred while downloading!")
+        installedFalse()
 
-    print(f"Downloading Minecraft Forge version {forge_version} Universal...")
-    urllib.request.urlretrieve(forge_url2, "forge-universal.jar")
-    print("Download complete!")
+    try:
+        print(f"Downloading Minecraft Forge version {forge_version} Universal...")
+        urllib.request.urlretrieve(forge_url2, "forge-universal.jar")
+        print("Download complete!")
+    except:
+        print("An error occurred while downloading!")
+        installedFalse()
 
     try:
         print(f"Downloading Minecraft Forge version {forge_version} Modpack...")
         response = requests.get('https://github.com/Ztrolix/ProjectWhitePebble/releases/download/versions/White-Pebble-v4.4.1.zip')
         with open("White-Pebble-v4.4.1.zip", 'wb') as f:
             f.write(response.content)
+        installedTrue()
     except:
         print("An error occurred while downloading!")
-        d = open("4.4.1.txt", "w")
-        d.write("False")
-        d.close()
+        installedFalse()
+        
 
 def install():
     print("Installing Minecraft Forge Installer Server...")
@@ -60,14 +78,10 @@ def extract():
     		# into a specific location.
     		zObject.extractall(
     			path="C:\\White-Pebble\\instances\\White-Pebble v4.4.1")
-    	f = open("4.4.1.txt", "w")
-    	f.write("True")
-    	f.close()
+        installedTrue()
     except:
         print("An error occurred while extracting!")
-        d = open("4.4.1.txt", "w")
-        d.write("False")
-        d.close()
+        installedFalse()
 
 def main():
 
