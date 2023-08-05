@@ -1,6 +1,8 @@
 import os
 import time
 
+install = ""
+
 v11 = open("1.1.txt", "r")
 v11r = v11.read()
 
@@ -39,6 +41,9 @@ v44r = v44.read()
 
 v441 = open("4.4.1.txt", "r")
 v441r = v441.read()
+
+v50 = open("5.0.txt", "r")
+v50r = v50.read()
 
 while True:
     v11 = open("1.1.txt", "r")
@@ -79,6 +84,9 @@ while True:
 
     v441 = open("4.4.1.txt", "r")
     v441r = v441.read()
+    
+    v50 = open("5.0.txt", "r")
+    v50r = v50.read()
     
     print("0) Custom Install")
     if (v11r == "True") :
@@ -133,6 +141,10 @@ while True:
         print("13) White-Pebble v4.4.1 [Installed]")
     else :
         print("13) White-Pebble v4.4.1 [Not-Installed]")
+    if (v50r == "True") :
+        print("14) White-Pebble v5.0 [Installed]")
+    else :
+        print("14) White-Pebble v5.0 [Not-Installed]")
     install = input(": ")
     
     if (install == "0") :
@@ -215,6 +227,12 @@ while True:
         os.system('cls' if os.name == 'nt' else 'clear')
     elif (install == "13") :
         os.system("White-Pebble-v4.4.1-installer.py")
+        print("Done!")
+        print()
+        time.sleep(3)
+        os.system('cls' if os.name == 'nt' else 'clear')
+    elif (install == "14") :
+        os.system("White-Pebble-v5.0-installer.py")
         print("Done!")
         print()
         time.sleep(3)
