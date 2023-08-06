@@ -107,6 +107,22 @@
     text-decoration: none;
     padding: 8px 0;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #FFA500;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
     </style>
   </head>
   <body>   
@@ -132,10 +148,7 @@
         </p>
         <a class="popup a" href="#" id="close">Dismiss</a>
     </div>
-    <section>
-      <iframe width="100%" height="9999999999999999999999" style="border: none; " src="https://ztrolix.github.io/ProjectWhitePebble/wp500/"></iframe>
-    </section>
-    <section>
+    <section id="web">
       <!-- MOBILE NAVIGATION -->
       <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
         <a href="#home" class="w3-bar-item w3-button w3-hover-none">White Pebble</a>
@@ -147,10 +160,9 @@
         <a href="#releases" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RELEASES</a>
         <a href="#gitreleases" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">GITHUB RELEASES</a>
         <a href="#5.0" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">v5.0 A New Era</a>
-       <!-- <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+
       </div>
 
-      <-- SOCIAL SECTION -->
       <section class="image-section w3-quarter w3-fixed w3-padding-small">
         <!--IMAGE/AVATAR-->
         <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
@@ -212,19 +224,53 @@
 
               <h3 class="w3-border-amber">Infomation</h3>
               <div class="">
-                <h4>What's coming</h4>
+                <h4>Whats New</h4>
+                <table>
+                  <tr>
+                    <th>Added JRE 1.8 Installer</th>
+                    <th>Added JDK 20 Installed</th>
+                    <th>Added Python 3.12 Installer</th>
+                  </tr>
+                  <tr>
+                    <th>Added Home Launcher</th>
+                    <th>Added New Menu Screen</th>
+                    <th>Added New Loading Screen</th>
+                  </tr>
+                  <tr>
+                    <th>Added New Installer</th>
+                    <th>Added Better Health</th>
+                    <th>Added More Shaders</th>
+                  </tr>
+                  <tr>
+                    <th>Added Auto Install Forge Loader</th>
+                    <th>Added Auto Install Optifine Loader</th>
+                    <th>Added Auto Install LiteLoader Loader</th>
+                  </tr>
+                  <tr>
+                    <th>Added Auto Update Python</th>
+                    <th>Added Optifine Loader</th>
+                    <th>Added LiteLoader Loader</th>
+                  </tr>
+                  <tr>
+                    <th>Added AutoUpdater</th>
+                    <th>Updated Main Launcher to 3.5.5</th>
+                    <th>Changed Logo</th>
+                  </tr>
+                  <tr>
+                    <th>Changed Launcher Looks</th>
+                    <th>Changed Launcher To Modern</th>
+                    <th>Changed Backgrounds</th>
+                  </tr>
+                </table>
+
+                <h4>Overview</h4>
                 <p class="w3-margin-top-2"> 
                     A new startup launcher will be coming making it have less GB to download.
-                  You will not have to download the app from the launcher now and we added a new download system. We romoved JRE 1.8 and JDK 20 because it was 1GB and you need these to download it anyway. The new launcher allows you to download other launchers as well! So this can also because a download manager but it is not recomended as it can corrupt the files if you download anything other that Official White-Pebble applications but you can still get custom modpacks. All of this and more will be releasing on the 6th of August 3:15 AEST.
+                  You will not have to download the app from the launcher now and we added a new download system. We romoved JRE 1.8 and JDK 20 because it was 1GB and you need these to download it anyway. The new launcher allows you to download other launchers as well! So this can also because a download manager but it is not recomended as it can corrupt the files if you download anything other that Official White-Pebble applications but you can still get custom modpacks.
                 </p>
                 <p class=""> 
                     This project is called Project White-Stain but when it is release it is going to be called Project White-Pebble again.
                   This is going to be one of our most biggest updates through out other than the release of 4.X that one was a big update but this is going to be bigger.
-                </p>
-
-                <h4>Release date</h4>
-                <p class="w3-margin-top-2"> 
-                  All of this and more will be releasing on the 6th of August 3:15 AEST.
                 </p>
               </div>
 
@@ -232,11 +278,10 @@
               <h3 class="w3-border-amber">Downloads</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <a class="button2 button3" href="https://ztrolix.github.io/ProjectWhitePebble/wp500/#"><i class="fa fa-download"></i> Download 5.0.0</a>
-                <h5>Coming soon!</h5>
+                <a class="button button1" href="https://ztrolix.github.io/ProjectWhitePebble/wp500/#"><i class="fa fa-download"></i> Download 5.0.0</a>
               </div>
             </div>
-            </div>
+          </div>
 
           <!--RESUME-->
           <div id="releases" class="w3-container w3-margin-top-20-percent w3-cursive">
@@ -246,17 +291,17 @@
               <h3 class="w3-border-amber">5.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <a class="button2 button3" href="https://ztrolix.github.io/ProjectWhitePebble/wp500/#"><i class="fa fa-download"></i> Download 5.0</a>
-                <h5>Coming soon!</h5>
+                <a class="button button1" href="5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
               </div>
 
               <!--EMPLOYMENT HISTORY SECTION-->
               <h3 class="w3-border-amber">4.X</h3>
               <div class="">
                 <h4>Latest Version</h4>
-                <a class="button button1" href="https://ztrolix.github.io/ProjectWhitePebble/wp44/#"><i class="fa fa-download"></i> Download 4.4</a>
+                <a class="button button1" href="https://ztrolix.github.io/ProjectWhitePebble/wp441/#"><i class="fa fa-download"></i> Download 4.4.1</a>
 
                 <h4>Older Versions</h4>
+                <a class="button button1" href="https://ztrolix.github.io/ProjectWhitePebble/wp44/#"><i class="fa fa-download"></i> Download 4.4</a>
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.3.0/WhitePebble-v4.3.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.3</a>
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.1.0/WhitePebble-v4.1.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.1</a>
                 <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.0.0/WhitePebble-v4.0.0-Installer.exe" download onclick="loaddownload()"><i class="fa fa-download"></i> Download 4.0</a>
@@ -303,19 +348,35 @@
                 <h5>No Previews Avaliable</h5>
               </div>
             </div>
-            </div>
+          </div>
 
             <div id="gitreleases" class="w3-container w3-margin-top-20-percent w3-cursive">
               <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;"><i class="fa fa-github"></i> GITHUB RELEASES</h2>
               <div class="w3-container w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-amber">5.X</h3>
+                <div class="">
+                  <h4>Latest Version</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v5.0.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 5.0.0</a>
+                  
+                  <h4>Older Versions</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.4</a>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.3</a>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.1</a>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.0</a>
+
+                  <h4>Preview Version</h4>
+                  <h5>No Previews Avaliable</h5>
+                  <!--<a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview2" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.4.Preview2</a>-->
+                </div>
 
                 <!--EMPLOYMENT HISTORY SECTION-->
                 <h3 class="w3-border-amber">4.X</h3>
                 <div class="">
                   <h4>Latest Version</h4>
-                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.4</a>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.4.1</a>
                   
                   <h4>Older Versions</h4>
+                  <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.4</a>
                   <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.3</a>
                   <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.1.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.1</a>
                   <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.0.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Redirect 4.0</a>

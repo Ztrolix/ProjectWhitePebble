@@ -110,6 +110,22 @@
     text-decoration: none;
     padding: 8px 0;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #FFA500;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
     </style>
   </head>
   <body>   
@@ -136,14 +152,14 @@
         </p>
         <a class="popup a" href="#" id="close">Dismiss</a>
     </div>
-    <section id="releasedweb">
+    <!--<section id="releasedweb">
       <h1>Website Down To Update!</h1>
       <h4>The website is down to update the following application "White-Pebble 5.0.0". The website will be back online in a few minutes please wait.
       <a class="button button1" href="https://ztrolix.github.io/ProjectWhitePebble/#">Back To Home</a>
     </section>
     <section id="timerweb">
       <center><h2 style="color: white;">Releasing in <h2 class="timer" id="hrs2"></h2><h2 class="timer" id="min2"></h2><h2 class="timer" id="sec2"></h2></h2></center>
-    </section>
+    </section>-->
     <section id="web">
       <!-- MOBILE NAVIGATION -->
       <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
@@ -157,7 +173,7 @@
       <section class="image-section w3-quarter w3-fixed w3-padding-small">
         <!--IMAGE/AVATAR-->
         <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
-        <center><h2 style="color: white;">Releasing in <h2 class="timer" id="hrs"></h2><h2 class="timer" id="min"></h2><h2 class="timer" id="sec"></h2></h2></center>
+        <!--<center><h2 style="color: white;">Releasing in <h2 class="timer" id="hrs"></h2><h2 class="timer" id="min"></h2><h2 class="timer" id="sec"></h2></h2></center>-->
       </section>
 
       <!--CV CONTENT SECTION-->
@@ -175,26 +191,14 @@
             <p></p>
           </div>
 
-          <!--<div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive">
+          <div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive">
             <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">DOWNLOADS</h2>
             <div class="w3-container w3-margin-top-2 w3-cursive">
 
               <div class="">
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.1/WhitePebble-v4.4.1-Installer.exe" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download 4.4.1</a>
-                <a class="button button1" href="https://www.mediafire.com/file/6ql30macydbtqtw/WhitePebble-v4.4.1-Installer.exe/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download 4.4.1</a>
-                <a class="button button1" href="https://drive.google.com/file/d/1PtKcABupyDauKUCvhobE9YBLu26wLCZC/view?usp=drive_link" target="_blank" onclick="loaddownload()"><i class="Google-Drive fontawesomeicon"></i> Google Drive Download 4.4.1</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="fulldownloads" class="w3-container w3-margin-top-20-percent w3-cursive">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">FULL BUNDLE DOWNLOADS</h2>
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-
-              <div class="">
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v4.4.1/WhitePebble-v4.4.1-Installer-Full.zip" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download Full 4.4.1</a>
-                <a class="button button1" href="https://www.mediafire.com/file/0ehoqg7tfjryw08/WhitePebble-v4.4.1-Installer-Full.zip/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download Full 4.4.1</a>
-                <a class="button button1" href="https://drive.google.com/file/d/1QB4yNIyvfKTAao9G7mNflbg8JxRNVMO9/view?usp=drive_link" target="_blank" onclick="loaddownload()"><i class="fa-brands fa-google-drive"></i> Google Drive Download Full 4.4.1</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/download/v5.0.0/WhitePebble-v5.0.0-Launcher-x64.exe" download onclick="loaddownload()"><i class="fa fa-github"></i> Github Download 5.0.0</a>
+                <a class="button button1" href="https://www.mediafire.com/file/9oflqs2ankqkv30/WhitePebble-v5.0.0-Launcher-x64.exe/file" target="_blank" onclick="loaddownload()"><i class="fa fa-fire"></i> MediaFire Download 5.0.0</a>
+                <a class="button button1" href="https://drive.google.com/file/d/1AkPbCi9SQWkf03SZept5b9JOtOyFpx-z/view?usp=sharing" target="_blank" onclick="loaddownload()"><i class="Google-Drive fontawesomeicon"></i> Google Drive Download 5.0.0</a>
               </div>
             </div>
           </div>
@@ -204,9 +208,7 @@
             <div class="w3-container w3-margin-top-2 w3-cursive">
 
               <div class="">
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 3.x & 4.x</a>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 2.x & 4.x</a>
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 1.x & 4.x</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/compareall" target="_blank"><i class="fa-solid fa-code-compare"></i> Compare 5.X</a>
               </div>
             </div>
           </div>
@@ -216,11 +218,11 @@
             <div class="w3-container w3-margin-top-2 w3-cursive">
 
               <div class="">
-                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.1" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Github 4.4.1</a>
-                <a class="button button1" href="https://drive.google.com/drive/folders/1OjKaDaMxElYCTAYcs4CtwUg4lt8ILb9a?usp=drive_link" onclick="loadredirectdownload()"><i class="fa-brands fa-google-drive"></i> Google Drive 4.4.1</a>
+                <a class="button button1" href="https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v5.0.0" onclick="loadredirectdownload()"><i class="fa fa-github"></i> Github 5.0.0</a>
+                <a class="button button1" href="https://drive.google.com/drive/folders/12kHsQg0nk5lygt3Cw-yx3XlUCu6cWovy?usp=sharing" onclick="loadredirectdownload()"><i class="fa-brands fa-google-drive"></i> Google Drive 5.0.0</a>
               </div>
             </div>
-          </div>-->
+          </div>
           <!--HOME SECTION-->
           <!--ABOUT SECTION-->
 
@@ -236,32 +238,6 @@
               This project is called Project White-Stain but when it is release it is going to be called Project White-Pebble again.
                 This is going to be one of our most biggest updates through out other than the release of 4.X that one was a big update but this is going to be bigger.
             </p>
-          </div>
-
-          <div id="date" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RELEASE DATE</h2>
-            <p class="w3-margin-top-2"> 
-              All of this and more will be releasing on the 6th of August 4:15 AEST.
-            </p>
-          </div>
-
-          <div id="downloads" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">DOWNLOADS</h2>
-            <div class="">
-                <h4>Latest Version</h4>
-                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
-                <h5>Coming soon!</h5>
-            </div>
-            <div class="">
-                <h4>Older Versions</h4>
-                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
-                <h5>There is no available versions.</h5>
-            </div>
-            <div class="">
-                <h4>Preview Version</h4>
-                <a class="button2 button3" href="#5.0"><i class="fa fa-download"></i> Download 5.0.0</a>
-                <h5>There is no available versions.</h5>
-            </div>
           </div>
 
           <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
