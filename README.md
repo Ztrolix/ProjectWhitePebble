@@ -8,24 +8,24 @@ https://blog.unity.com/news/plan-pricing-and-packaging-updates
 ## White-Pebble
 
 
-### What's new in 1.X?
+### What's new in 1.1.X?
 
 - FabricMC Loader
 - 1.20.1 Instances
 
-### What's new in 2.X?
+### What's new in 1.2.X?
 
 - Installation Guides
 - 1.12.2 Instances
 - Forge Mod Loader
 
-### What's new in 3.X?
+### What's new in 1.3.X?
 
 - Custom Installations
 - UI Hub
 - New Textures
 
-### What's new in 4.X?
+### What's new in 1.4.X?
 
 - Removed Fabric Git
 - Removed Forge Git
@@ -72,24 +72,19 @@ https://blog.unity.com/news/plan-pricing-and-packaging-updates
 ![UI-Hub](https://github.com/Ztrolix/ProjectWhitePebble/blob/main/old-java.png?raw=true)
 ![UI-Hub](https://github.com/Ztrolix/ProjectWhitePebble/blob/main/bedrock.png?raw=true)
 
-## RidgeMC
-### Info
-RidgeMC is a new Minecraft 1.12.2 mod loader made for White-Pebble!
-We are hoping to get it released later on this month
-
 ## Installs
 
 ### Versions
-#### [1.1 [Not Supported] [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1)
+#### [1.1.1 [Not Supported] [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v1.1
-#### [2.5 [Not Supported] [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5)
+#### [1.2.5 [Not Supported] [Discontinued]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v2.5
-#### [3.1.1 [Not Supported]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1)
+#### [1.3.1.1 [Not Supported]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v3.1.1
-#### [4.3.0](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0)
+#### [1.4.3.0](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0)
     https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.3.0
-#### [4.4.Preview1](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview1)
-    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview1
+#### [1.5.0.0 [Not Supported]](https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v4.4.Preview1)
+    https://github.com/Ztrolix/ProjectWhitePebble/releases/tag/v5.0.0
 
 ### Minimum Requirements	
 
