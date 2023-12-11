@@ -1,15 +1,6 @@
 # Project White-Pebble
 
-# WE ARE SLOWING PRODUCTION!
-We have slowed down production of the application because all of our source code was removed.
-
-# WE MAY BE SHUTTING DOWN!
-We are going to shut down due to the Unity blog post stating that they will charge fees for the use of your apps and games, so we are JOINING THE WAR! So we may not ever update again until Unity changes their system. We may go towards Unreal Engine or GoDot but for now are slowing all production down and we will shut down all downloads on the 1st of January, 2024.
-
-https://blog.unity.com/news/plan-pricing-and-packaging-updates
-
 ## White-Pebble
-
 
 ### What's new in 1.1.X?
 
@@ -67,6 +58,30 @@ https://blog.unity.com/news/plan-pricing-and-packaging-updates
 - Briefly Supporting all versions of Java
 - Changed Main Launcher
 - Changed Default Account
+- 
+### What's new in 1.5.X?
+
+- Added JRE 1.8 Installer
+- Added JDK 20 Installed
+- Added Python 3.12 Installer
+- Added Home Launcher
+- Added New Menu Screen
+- Added New Loading Screen
+- Added New Installer
+- Added Better Health
+- Added More Shaders
+- Added Auto Install Forge Loader
+- Added Auto Install Optifine Loader
+- Added Auto Install LiteLoader Loader
+- Added Auto Update Python
+- Added Optifine Loader
+- Added LiteLoader Loader
+- Added AutoUpdater
+- Updated Main Launcher to 3.5.5
+- Changed Logo
+- Changed Launcher Looks
+- Changed Launcher To Modern
+- Changed Backgrounds
 
 ### Images
 
